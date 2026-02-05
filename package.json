@@ -1,0 +1,19 @@
+﻿{
+  "name": "local-mcp-agent",
+  "version": "1.0.0",
+  "description": "Local MCP server with Ollama-backed agent",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsaacHulberg/local-mcp-agent.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "axios": "^1.13.4"
+  }
+}
